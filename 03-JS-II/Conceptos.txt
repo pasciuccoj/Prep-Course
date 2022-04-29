@@ -1,0 +1,6 @@
+FOR: es el bucle que se utiliza para repetir una o más ejecuciones determinada cantidad de veces. La sintaxis del bucle for está conformada por una variable, un statement condicional que determina hasta cuando se ejecuta el código y una incrementación que determina cómo avanza el código. 
+
+OPERADORES LÓGICOS: son utilizados para condicionar y comparar valores booleanos, su resultado se basa en la tabla de verdad.
+&& AND: su resultado es verdadero solo si sus dos variables son true.
+|| OR: su resultado es siempre verdadero, excepto si sus dos variables son false. 
+! NOT: se utiliza para obtener el valor contrario de la variable. 
