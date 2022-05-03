@@ -1,0 +1,11 @@
+ARRAYS: los arreglos son utilizados para poder crear una lista de diferentes elementos, pueden ser datos iguales o de distinto tipo (strings, números, booleanos, funciones, otros arrays, etc). Se utilizan brackets [] para encerrar los elementos y se separan con comas. 
+Para tener acceso a estos valores, los mismos son designados a un índice que siempre comienza en 0. Para poder ejecutar un elemento de la lista, tenemos que utilizar la variable designada al arreglo e indicarle un número del índice. 
+La propiedad array.length sirve para saber la cantidad de elementos que existen dentro de un arreglo (o cuantos sub-elementos). Para invocar un elemento, es importante recordar que a esa cantidad hay que restarle un número ya que en nuestro índice comenzamos a contar desde 0 y no desde 1. 
+Para asignar los valores a un arreglo se puede hacer de varias formas
+Literal: Se asigna una variable como nombre del arreglo y se agregan los elementos entre los corchetes.
+Asignación: Se puede crear un arreglo vacío e ir agregando elementos utilizando el signo de asignación y el número de índice del elemento. Este valor se puede modificar luego.
+Array.push: agrega un elemento al final de la lista.
+Array.pop: Obtiene el último valor y lo elimina (puede ser asignado a otra variable). 
+Array.unshift: agrega un elemento al principio de la lista.
+Array.shift: elimina el primer elemento de la lista. 
+Los arreglos se pueden recorrer también con la ayuda de los bucles (por ejemplo for o while), cumpliendo con la condición e incrementación que se le asigne. 
