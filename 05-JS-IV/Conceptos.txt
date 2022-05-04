@@ -1,0 +1,9 @@
+* OBJETOS: Son contenedores de datos, funcionan de manera similar a un Array, pero con un concepto diferente llamado Key:Value. Así como los arreglos pueden contener múltiples elementos, un objeto contiene múltiple información sobre un sólo concepto. Directa o indirectamente, podemos decir que todo dentro de JS es un objeto. El mismo se ejecuta creando una variable para el nombre del objeto, se abre con llaves {} y se separan los valores con coma ",".
+
+* PROPIEDADES: Se le llama propiedad a la asociación entre una clave y un valor, donde las claves (keys) son los indicadoreos que cumplen la función del índice numérico de un Array, y los valores (Value) son la información contenida dentro de ese indicador. Puede contener tanta información como querramos y de cualquier tipo de dato, incluídos otros objetos. 
+
+* METODOS: Son funciones dentro de un objeto, con valores establecidos.
+
+* BUCLE `for…in`: Es el bucle utilizado dentro de los objetos. Al no tener índice numérico, este bucle utiliza la keyword IN entre el nombre de la variable y el nombre del objeto. De esta manera, recorre cada clave y se detiene cuando todas se hayan itinerado. Ej: for (let clave in usuario) {codigo}.
+
+* Notación de puntos vs notación de corchetes: son dos maneras distintas de acceder a las propiedades. Con el dot notation es más rápido y sencillo, ya que escribimos menos código (objeto.clave). La contra del punto es que su ejecución tiene que ser literal, ya que sólo procesa nombres de claves que estén incluídos en las propiedades del objeto. En cambio, con el Bracket Notation, se pueden hacer búsquedas asociadas, donde el lector relaciona variables u otros conceptos globales dentro de la ejecución. 
