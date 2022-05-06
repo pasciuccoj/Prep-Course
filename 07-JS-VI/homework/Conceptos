@@ -1,0 +1,5 @@
+
+*CALLBACK: Son aquellas funciones que pueden ser utilizadas como un método dentro de otra función (para ser utilizada luego). Utiliza principalmente tres elementos:
+-ForEach: es un bucle que ejecuta la función indicada una vez por cada elemento del array, tomando un callbak como único elemento. Esto nos permite programar de manera declarativa (el intérprete comprende sin necesidad de darle ordenes literales). 
+-Map: se utiliza cuando queremos modificar cada elemento de un array de la misma manera. El callback contiene un elemento y un índice opcional. A diferencia del forEach, Map siempre retorna algo.
+-Reduce: sirve como función reductora sobre cada elemento de un array, devolviendo como resultado un único valor. Acepta un callback que recibe dos elementos: un acumulador (donde se guardará el resultado final) y un elemento actual con el cual trabaja el acumulador. Opcionalmente, se puede declarar un valor inicial para el acumulador, sino iniciará en 0 por defecto.
